@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daftar</title>
+</head>
+    <table cellpadding="5" bgcolor="skyblue">
+        <thead bgcolor="cornflowerblue">
+            <tr>
+                <td colspan="7"><img src="foto/1.jpg" alt="" width="100%" height="35%"></td>
+            </tr>
+            <tr align="center">
+                <td width="200" height="35">&nbsp;</td>
+                <td width="200" height="35"><a href="index.html">Beranda</a></td>
+                <td width="200" height="35"><a href="produk.html">Produk</a></td>
+                <td width="200" height="35"><a href="pembelian.html">Pembelian</a></td>
+                <td width="200" height="35">Daftar Baru</td>
+                <td width="200" height="35"><a href="kontak.html">Kontak Kami</a></td>
+                <td width="200" height="35">&nbsp;</td>
+            </tr>
+        </thead>
+        <form action="" method="POST">
+        <tbody width="70%" height="70%" cellspacing="10" cellpadding="5">
+            <tr>
+                <td colspan="7">
+                    <h1 align="center">
+                        <big>
+                            <font color="chocolate"><b>ERISA </b></font>
+                            <font color="peru"><b> COLLECTION</b></font>
+                        </big>
+                    </h1>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7" align="center">
+                    <h1>
+                        <font color="darkred"><b>MASUKAN DATA ANDA</b></font>
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">NAMA LENGKAP</td>
+                <td colspan="3">
+                    <input type="text" name="txtnama" id="" size="45" pattern="[A-Za-z0-9 ]{1.45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9 dan spasi
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">USERNAME</td>
+                <td colspan="3">
+                    <input type="text" name="txtuser" id="" size="45" pattern="[A-Za-z0-9 ]{1.45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9 dan spasi
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">PASSWORD</td>
+                <td colspan="3">
+                    <input type="password" name="txtpass" id="" size="45" pattern="^(?=[a-zA-Z])(?=.*[0-9]){1,45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">RE-TYPE PASSWORD</td>
+                <td colspan="3">
+                    <input type="password" name="txtretype" id="" size="45" pattern="^(?=[a-zA-Z])(?=.*[0-9]){1.45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">EMAIL</td>
+                <td colspan="3">
+                    <input type="email" name="txtemail" id="" size="45" pattern="[A-Za-z0-9._ ]+@[a-z0-9.-]+\.[a-z]{1,45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9, ., _
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">ALAMAT</td>
+                <td colspan="3">
+                    <textarea type="text" name="txthome" cols="50" rows="3" required></textarea>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">TANGGAL LAHIR</td>
+                <td colspan="3">
+                    <select name="txtdate" id="" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="txtmonth" id="" required>
+                        <option value="january">JANUARY</option>
+                        <option value="february">FEBRUARY</option>
+                        <option value="march">MARCH</option>
+                        <option value="april">APRIL</option>
+                        <option value="may">MAY</option>
+                        <option value="june">JUNE</option>
+                        <option value="july">JULY</option>
+                        <option value="august">AUGUST</option>
+                        <option value="september">SEPTEMBER</option>
+                        <option value="october">OCTOBER</option>
+                        <option value="november">NOVEMBER</option>
+                        <option value="december">DECEMBER</option>
+                    </select>
+                    <select name="txtyear" type="DATE" id="" required>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">JENIS KELAMIN</td>
+                <td colspan="2">
+                    <input type="radio" name="txtsex" id="" required>LAKI-LAKI
+                    <input type="radio" name="txtsex" id="" required>PEREMPUAN
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">DAFTAR SEBAGAI</td>
+                <td colspan="2">
+                    <input type="checkbox" name="cek1" id="">PENJUAL
+                    <input type="checkbox" name="cek2" id="">PEMBELI
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2"><h2><input name="cmdsend"  type="submit" value="SEND"></h2></td>
+                <td colspan="2"><h2><input name="cmdclear"  type="reset" value="CLEAR"></h2></td>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+        <tfoot bgcolor="cornflowerblue">
+            <tr align="center">
+                <td colspan="7">
+                    <h3>Copyright Evariana Sartika @2020</h3>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</head>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pembelian</title>
+</head>
+    <table cellpadding="5" bgcolor="skyblue">
+        <thead bgcolor="cornflowerblue">
+            <tr>
+                <td colspan="7"><img src="foto/1.jpg" alt="" width="100%" height="35%"></td>
+            </tr>
+            <tr align="center">
+                <td width="200" height="35">&nbsp;</td>
+                <td width="200" height="35"><a href="index.html">Beranda</a></td>
+                <td width="200" height="35"><a href="produk.html">Produk</a></td>
+                <td width="200" height="35">Pembelian</td>
+                <td width="200" height="35"><a href="daftar.html">Daftar Baru</a></td>
+                <td width="200" height="35"><a href="kontak.html">Kontak Kami</a></td>
+                <td width="200" height="35">&nbsp;</td>
+            </tr>
+        </thead>
+        <form action="" method="POST">
+        <tbody width="70%" height="70%" cellspacing="10" cellpadding="5">
+            <tr>
+                <td colspan="7">
+                    <h1 align="center">
+                        <big>
+                            <font color="chocolate"><b>ERISA </b></font>
+                            <font color="peru"><b> COLLECTION</b></font>
+                        </big>
+                    </h1>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7" align="center">
+                    <h1>
+                        <font color="darkred"><b>MASUKAN DATA ANDA</b></font>
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">NAMA LENGKAP</td>
+                <td colspan="3">
+                    <input type="text" name="txtnama" id="" size="45" pattern="[A-Za-z0-9 ]{1.45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9 dan spasi
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">USERNAME</td>
+                <td colspan="3">
+                    <input type="text" name="txtuser" id="" size="45" pattern="[A-Za-z0-9 ]{1.45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9 dan spasi
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">EMAIL</td>
+                <td colspan="3">
+                    <input type="email" name="txtemail" id="" size="45" pattern="[A-Za-z0-9._ ]+@[a-z0-9.-]+\.[a-z]{1,45}" required>
+                    <br> Dapat Mengandung karakter A, a, 0-9, ., _
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">ALAMAT</td>
+                <td colspan="3">
+                    <textarea type="text" name="txtalamat" cols="50" rows="3" required></textarea>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">PILIHAN BAJU</td>
+                <td colspan="3">
+                    <select name="txtbaju" id="" required>
+                        <option value="1">Sweater Putih Cat IDR 40.000</option>
+                        <option value="2">Cardigan Peach IDR 45.000</option>
+                        <option value="3">Sweater Bakery IDR 50.000</option>
+                        <option value="4">Sweater Kelinci IDR 45.000</option>
+                        <option value="5">Chesee Sweater IDR 50.000</option>
+                        <option value="6">Sweater Meow IDR 45.000</option>
+                        <option value="7">Sweater Morning Selfie IDR 40.000</option>
+                        <option value="8">5K Sweater IDR 50.000</option>
+                        <option value="9">Eye Sweater IDR 35.000</option>
+                        <option value="10">Sweater Polos IDR 50.000</option>
+                        <option value="11">Sweater Beauty Is In The Eye IDR 45.000</option>
+                        <option value="12">Sweater Grey IDR 40.000</option>
+                        <option value="13">Kaos Screamous IDR 30.000</option>
+                        <option value="14">Kaos Sobat Ambyar IDR 35.000</option>
+                        <option value="15">Kaos Penganggum Wanita Berhijab IDR 30.000</option>
+                        <option value="16">Kaos Threesecond 96 IDR 50.000</option>
+                        <option value="17">Kaos Threesecond Hitam IDR 45.000</option>
+                        <option value="18">Kaos Greenlight IDR 45.000</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">PILIHAN PROMO</td>
+                <td colspan="3">
+                    <select name="txtpromo" id="" required>
+                        <option value="1">Sweater Whatever IDR 40.000</option>
+                        <option value="2">Kaos Yeszy.mfg IDR 35.000</option>
+                        <option value="3">Sweater Thin So IDR 50.000</option>
+                        <option value="4">Kaos Astronot IDR 40.000</option>
+                        <option value="5">Tagline Here Sweater IDR 50.000</option>
+                        <option value="6">Kaos Arghinspr IDR 35.000</option>
+                        <option value="7">Sweater Stussy IDR 50.000</option>
+                        <option value="8">Kaos Pull & Bear IDR 45.000</option>
+                        <option value="9">Miami Sweater IDR 45.000</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">OPSI PENGANTARAN</td>
+                <td colspan="2">
+                    <input type="radio" name="txtantar" id="" required>Sicepat Rp15.000
+                    <br>
+                    <input type="radio" name="txtantar" id="" required>J&T Express Rp20.000
+                    <br>
+                    <input type="radio" name="txtantar" id="" required>JNE REG Rp25.000
+                    <br>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">METODE PEMBAYARAN</td>
+                <td colspan="2">
+                    <input type="radio" name="txtbayar" id="" required>COD
+                    <br>
+                    <input type="radio" name="txtbayar" id="" required>Alfamart
+                    <br>
+                    <input type="radio" name="txtbayar" id="" required>Indomaret
+                    <br>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2"><h2><input name="cmdsend"  type="submit" value="SEND"></h2></td>
+                <td colspan="2"><h2><input name="cmdclear"  type="reset" value="CLEAR"></h2></td>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+        <tfoot bgcolor="cornflowerblue">
+            <tr align="center">
+                <td colspan="7">
+                    <h3>Copyright Evariana Sartika @2020</h3>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</head>
+</html>
